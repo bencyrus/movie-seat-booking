@@ -4,6 +4,7 @@ const count = document.getElementById("count");
 const total = document.getElementById("total");
 const movieSelect = document.getElementById("movie");
 
+// Populate UI when refreshing
 populateUI();
 
 let ticketPrice = +movieSelect.value;
